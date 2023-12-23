@@ -22,7 +22,7 @@ class AsyncQueue extends EventEmitter {
   }
 
   print() {
-    return this.items.slice(); // Return a copy for testing
+    return this.items.slice();
   }
 
   start() {
