@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.810" tests="8" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-12-23T05:11:21" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="async_queue" timestamp="2023-12-23T05:11:21" tests="8" file="/home/asmejia93/personal/node/tdd-jest/async-queue/test/index.spec.js" time="1.808" failures="0">
+    <testcase name="async_queue Should have all the methods in the class" time="0.001" classname="Should have all the methods in the class">
+    </testcase>
+    <testcase name="async_queue Should enqueue the items to the queue" time="0.022" classname="Should enqueue the items to the queue">
+    </testcase>
+    <testcase name="async_queue Should return the item at head when peek method is called" time="0.000" classname="Should return the item at head when peek method is called">
+    </testcase>
+    <testcase name="async_queue Should start the dequeue process once start method is called" time="0.521" classname="Should start the dequeue process once start method is called">
+    </testcase>
+    <testcase name="async_queue Should dequeue items every 250ms from the queue" time="0.511" classname="Should dequeue items every 250ms from the queue">
+    </testcase>
+    <testcase name="async_queue Should update the queue interval" time="0.102" classname="Should update the queue interval">
+    </testcase>
+    <testcase name="async_queue Should pause the dequeue process" time="0.322" classname="Should pause the dequeue process">
+    </testcase>
+    <testcase name="async_queue Should continue to listen for new data even on pausing the dequeue process" time="0.322" classname="Should continue to listen for new data even on pausing the dequeue process">
+    </testcase>
+  </testsuite>
+</testsuites>
